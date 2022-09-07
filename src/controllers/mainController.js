@@ -12,5 +12,11 @@ music : (req,res) => {
 },
 contact : (req,res) => {
     return res.render('contact')
+},
+login : (req,res) => {
+    return res.render('login')
+},
+admin : (req,res) => {
+    return res.render('admin')
 }
 }
